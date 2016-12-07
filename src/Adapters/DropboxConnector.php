@@ -12,7 +12,7 @@
 namespace Icyboy\Flysystem\Adapters;
 
 use Dropbox\Client;
-use Icyboy\Manager\ConnectorInterface;
+use GrahamCampbell\Manager\ConnectorInterface;
 use InvalidArgumentException;
 use League\Flysystem\Dropbox\DropboxAdapter;
 

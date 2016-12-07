@@ -11,7 +11,7 @@
 
 namespace Icyboy\Flysystem\Adapters;
 
-use Icyboy\Manager\ConnectorInterface;
+use GrahamCampbell\Manager\ConnectorInterface;
 use League\Flysystem\Adapter\Ftp;
 
 /**

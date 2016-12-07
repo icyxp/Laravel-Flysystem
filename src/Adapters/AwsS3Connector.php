@@ -12,7 +12,7 @@
 namespace Icyboy\Flysystem\Adapters;
 
 use Aws\S3\S3Client;
-use Icyboy\Manager\ConnectorInterface;
+use GrahamCampbell\Manager\ConnectorInterface;
 use InvalidArgumentException;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;
 

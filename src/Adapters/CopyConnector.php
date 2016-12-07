@@ -12,7 +12,7 @@
 namespace Icyboy\Flysystem\Adapters;
 
 use Barracuda\Copy\API;
-use Icyboy\Manager\ConnectorInterface;
+use GrahamCampbell\Manager\ConnectorInterface;
 use InvalidArgumentException;
 use League\Flysystem\Copy\CopyAdapter;
 
