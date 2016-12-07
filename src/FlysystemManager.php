@@ -11,7 +11,7 @@
 
 namespace Icyboy\Flysystem;
 
-use Icyboy\Manager\AbstractManager;
+use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
 use InvalidArgumentException;
 
