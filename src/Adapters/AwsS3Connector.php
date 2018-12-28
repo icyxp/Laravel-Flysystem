@@ -83,6 +83,10 @@ class AwsS3Connector implements ConnectorInterface
         if (array_key_exists('calculate_md5', $config)) {
             $auth['calculate_md5'] = $config['calculate_md5'];
         }
+        
+        if (array_key_exists('use_path_style_endpoint', $config)) {
+            $auth['use_path_style_endpoint'] = $config['use_path_style_endpoint'];
+        }
 
         if (array_key_exists('scheme', $config)) {
             $auth['scheme'] = $config['scheme'];
